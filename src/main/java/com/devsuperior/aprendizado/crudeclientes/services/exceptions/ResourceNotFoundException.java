@@ -1,0 +1,8 @@
+package com.devsuperior.aprendizado.crudeclientes.services.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException{
+
+    public ResourceNotFoundException(String msg) {
+        super(msg);
+    }
+}

@@ -1,0 +1,12 @@
+insert into client (name, cpf, income, birth_date, children) values ('Filipa Costa', '234.567.890-12', 421.90, '1990-08-02', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Helder Carvalho', '456.789.012-34', 56.81, '2000-03-12', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Celsa Tadeu', '901.234.567-89', 901.77, '2002-02-10', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Andre Eliseu', '114.567.890-12', 421.90, '1990-08-02', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Sara Francisco', '11.789.012-34', 56.81, '2000-03-12', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Elga Bastos', '14.901.234-56', 901.77, '2002-02-10', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Filipa Costa', '46.567.890-12', 421.90, '1990-08-02', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Helder Carvalho', '55.789.012-34', 56.81, '2000-03-12', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Celsa Tadeu', '88.234.567-89', 901.77, '2002-02-10', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Andre Eliseu', '902.567.890-12', 421.90, '1990-08-02', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Sara Francisco', '773.789.012-34', 56.81, '2000-03-12', 3);
+insert into client (name, cpf, income, birth_date, children) values ('Elga Bastos', '271.901.234-56', 901.77, '2002-02-10', 3);
