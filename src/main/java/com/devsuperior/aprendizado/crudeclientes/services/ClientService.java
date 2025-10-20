@@ -39,7 +39,7 @@ public class ClientService {
     public ClientDTO insert(ClientDTO dto) {
         Client client = new Client();
 
-        return copyDtoToEntity(dto, client);
+        return copyData(dto, client);
     }
 
     @Transactional
@@ -49,7 +49,7 @@ public class ClientService {
 
             Client client = clientRepository.getReferenceById(id);
 
-            return copyDtoToEntity(dto, client);
+            return copyData(dto, client);
 
         } catch (EntityNotFoundException e) {
 
@@ -71,7 +71,7 @@ public class ClientService {
         }
     }
 
-    private ClientDTO copyDtoToEntity(ClientDTO dto, Client client) {
+    private ClientDTO copyData(ClientDTO dto, Client client) {
         client.setName(dto.getName());
         client.setCpf(dto.getCpf());
         client.setIncome(dto.getIncome());
